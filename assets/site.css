@@ -93,6 +93,10 @@ section .lede { color: var(--ink-soft); max-width: 52ch; margin: 0 0 36px; }
 .doc p, .doc li { color: var(--ink); }
 .doc ul { padding-left: 22px; }
 .doc li { margin-bottom: 6px; }
+.doc h3 { font-size: 19px; letter-spacing: -0.01em; margin: 28px 0 8px; font-weight: 700; }
+.doc table { width: 100%; border-collapse: collapse; margin: 8px 0 16px; }
+.doc th, .doc td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+.doc th { color: var(--ink-soft); font-weight: 600; }
 .note { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; color: var(--ink-soft); }
 
 /* 404 */

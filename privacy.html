@@ -32,7 +32,7 @@
   <main class="doc">
     <div class="wrap">
       <h1>Privacy policy</h1>
-      <p class="meta">Last updated: 17 October 2026</p>
+      <p class="meta">Last updated: 8 November 2026</p>
 
       <p>This policy explains what information Yakshvi Studios ("we", "us") handles on this website and in our apps and games, and why. We keep it in plain language and update it whenever something changes.</p>
 
@@ -51,9 +51,71 @@
         <li>whether any of it is shared with third parties, such as app stores, advertising or analytics services;</li>
         <li>how long it's kept, and how you can ask us to delete it.</li>
       </ul>
-      <p class="note">We haven't released any apps yet, so there are no app sections here yet.</p>
+      <p>Apps covered by this policy: <a href="#aanote">Aanote</a>.</p>
 
-      <h2>When you email us</h2>
+      <h2 id="aanote">Aanote</h2>
+      <p class="note"><strong>The short version:</strong> what you record stays on your phone, encrypted. There is no account to create and no server of ours. We receive nothing from the app. If you choose to back up, the backup is encrypted on your phone first, so nobody but you can read it, including us and Google.</p>
+
+      <h3>What the app keeps, and where</h3>
+      <p><strong>Your records</strong> are the accounts, categories, transactions, budgets, recurring entries and notes you enter. They are stored only on your phone, in an encrypted database. The key that unlocks it is held in your phone's secure storage.</p>
+      <p>The app also keeps a few things on your phone so it can work:</p>
+      <ul>
+        <li><strong>Your settings</strong>, such as your reminder schedule and theme.</li>
+        <li><strong>The time of your latest entry</strong>, so reminders can stay quiet when you have just recorded something. This one fact is kept outside the encrypted database, because reminders have to work while the app is closed.</li>
+        <li><strong>Your backup passphrase</strong>, if you use scheduled backups, in your phone's secure storage, so that backups can run without asking you each time.</li>
+        <li><strong>The email address of your Google account</strong>, if you connect Google Drive, so the app can show which account is connected.</li>
+      </ul>
+      <p>We don't ask for your name, phone number or location. The app doesn't connect to your bank, and it doesn't read your SMS messages, contacts or other apps.</p>
+      <p>Your records are left out of Android's automatic backup and phone-to-phone transfer, so they are not copied anywhere without you choosing to.</p>
+
+      <h3>Backups, if you choose to use them</h3>
+      <p>Backups are off until you set them up. Before a backup leaves your phone, it is encrypted with AES-256-GCM using a passphrase you choose. We never receive your passphrase or your recovery key, so <strong>we cannot read your backups or recover them for you</strong>. If you lose both your passphrase and your recovery key, the backup cannot be opened.</p>
+      <ul>
+        <li><strong>Google Drive.</strong> You sign in with your Google account, and the app stores one encrypted backup file in a private folder in your Drive that only this app can use. The app cannot see, read or change any of your other Drive files. Using Google Sign-In and Google Drive is subject to the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+        <li><strong>A file you save yourself.</strong> You can save an encrypted backup anywhere your phone offers, and you are responsible for where it goes.</li>
+      </ul>
+
+      <h3>Spreadsheet export</h3>
+      <p>If you export your records as a CSV file, that file is <strong>not encrypted</strong>. Anyone who can open it can read it, so take care where you save or send it.</p>
+
+      <h3>Reminders, budget alerts and app lock</h3>
+      <p>Reminders and budget alerts are optional, and are worked out on your phone. A budget alert names the category and the amount, and your phone may show it on the lock screen, depending on your Android settings.</p>
+      <p>App lock uses your phone's own fingerprint, face or PIN. The app only learns whether unlocking succeeded, and never sees your fingerprint, face or PIN.</p>
+
+      <h3>Permissions the app uses</h3>
+      <table>
+        <thead><tr><th scope="col">Permission</th><th scope="col">Why</th></tr></thead>
+        <tbody>
+          <tr><td>Internet</td><td>Only for Google Sign-In and Google Drive backups. The app works fully offline without them.</td></tr>
+          <tr><td>Notifications</td><td>To show reminders and budget alerts, if you turn them on.</td></tr>
+          <tr><td>Run at start-up</td><td>To set your reminders again after your phone restarts.</td></tr>
+          <tr><td>Fingerprint and biometrics</td><td>For app lock, if you turn it on.</td></tr>
+        </tbody>
+      </table>
+
+      <h3>What we receive</h3>
+      <p><strong>From the app, nothing.</strong> It contains no analytics, advertising or tracking, and has no server of ours to send anything to.</p>
+      <p><strong>From Google Play.</strong> Google handles buying the app, and we never see your card or payment details. Google gives us sales and order reports, and app statistics such as installs, uninstalls, ratings and crash reports. Crash reports come only from people who have chosen to share diagnostics with Google. See the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+      <p><strong>If you email us.</strong> See <a href="#email">When you email us</a> below. Send feedback in the app opens your own email app with the app version and Android version filled in. You can remove them, and nothing is sent until you send it.</p>
+
+      <h3>Who it's shared with</h3>
+      <p>We don't sell or share your information, because we don't have it. The only other company involved is Google, and only for what is described above: Google Play for buying and installing the app, and Google Sign-In and Drive if you choose to back up there.</p>
+
+      <h3>Keeping and deleting your information</h3>
+      <p>Your records stay on your phone until you delete them.</p>
+      <ul>
+        <li><strong>Delete everything:</strong> in the app, go to Settings, then Delete all my data. This erases your records and the key that protects them, and it cannot be undone. If Google Drive is connected, your Drive backup is deleted first, and your records are erased only once it has gone. To keep the backup, disconnect Google first.</li>
+        <li><strong>Uninstalling the app</strong> removes your records from your phone, but not a Google Drive backup.</li>
+        <li><strong>Delete your Google Drive backup:</strong> the backup is kept in a hidden folder, so it does not appear among your Drive files, and it stays there until you delete it, even after you uninstall the app. In the app, go to Settings, then Backup and restore, then Delete my Drive backup. This also turns off automatic backups, so that the next one does not put it back. If you no longer have the app, open <a href="https://drive.google.com/drive/settings">Google Drive settings</a> on a computer, choose Manage apps, find Aanote, then choose Options and Delete hidden app data.</li>
+        <li><strong>Delete a backup file you saved yourself:</strong> delete it wherever you saved it.</li>
+        <li><strong>Remove the app's access to your Google account:</strong> use <a href="https://myaccount.google.com/connections">your Google account's connections page</a>.</li>
+      </ul>
+      <p>We can't delete any of this for you, because none of it is held by us. If you need help, write to <a href="mailto:support@yakshvistudios.com">support@yakshvistudios.com</a>.</p>
+
+      <h3>Adults only</h3>
+      <p>Aanote is meant for adults aged 18 and over. It is not directed at children.</p>
+
+      <h2 id="email">When you email us</h2>
       <p>If you write to us, we receive your email address and whatever you include in your message. We use it only to reply to you, and we don't add you to mailing lists.</p>
 
       <h2>Your choices</h2>
@@ -63,7 +125,7 @@
       <p>When we change this policy, we'll update the date at the top of this page. Significant changes for an app will also be noted in that app's section.</p>
 
       <h2>Contact</h2>
-      <p>Yakshvi Studios<br>Email: <a href="mailto:hello@yakshvistudios.com">hello@yakshvistudios.com</a></p>
+      <p>Yakshvi Studios<br>Email: <a href="mailto:hello@yakshvistudios.com">hello@yakshvistudios.com</a><br>For help with our apps: <a href="mailto:support@yakshvistudios.com">support@yakshvistudios.com</a></p>
     </div>
   </main>
 
